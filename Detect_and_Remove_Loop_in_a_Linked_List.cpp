@@ -8,7 +8,7 @@ If a loop is detected, you can use another loop to find the last node of the loo
   (the node whose next pointer points to the loop's starting node) and set its next pointer 
   to nullptr to break the loop.
 
-/////////////////////////////code///////////////////////////////////
+ /////////////////////////////code///////////////////////////////////
 void removeLoop(Node* head) {
     Node* current = head;
     while (current != nullptr) {
